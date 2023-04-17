@@ -1,0 +1,36 @@
+#bg {
+    height: 100vh;
+    background-image: url(../Kuvat/movietheater.PNG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+.btn {
+    background-image: linear-gradient(to right, red, white, red, white, red, white, red, white);
+    color: black;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.dropdown-item {
+    background-image: linear-gradient(to right, white, red, white, red, white, red, white, red);
+    color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#leffatiedot {
+    background-image: url(../Kuvat/ruutupaperi.PNG);
+}
+
+table, th, td {
+    border: 10px inset;
+    padding: 5px;
+}

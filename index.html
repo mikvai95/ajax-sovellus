@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <title>AJAX-sovellus</title>
+    <link rel="stylesheet" href="./Tyylit/tyylittelyt.css">
+
+</head>
+
+<body id="bg">
+
+        <h2>Finnkinossa meneillään olevat leffat tällä hetkellä</h2>
+        
+        <!-- Valitaan elokuvateatteri alasvetovalikosta -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Valitse teatteri
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" id="valitsejokuteatteri">
+              <li><a class="dropdown-item" id="flamingo" href="#" onclick="funktio1013()">Flamingo</a></li>
+              <li><a class="dropdown-item" id="fantasia" href="#" onclick="funktio1015()">Fantasia</a></li>
+              <li><a class="dropdown-item" id="scala" href="#" onclick="funktio1016()">Scala</a></li>
+              <li><a class="dropdown-item" id="kuvapalatsi" href="#" onclick="funktio1017()">Kuvapalatsi</a></li>
+              <li><a class="dropdown-item" id="plaza" href="#" onclick="funktio1018()">Plaza</a></li>
+              <li><a class="dropdown-item" id="promenadi" href="#" onclick="funktio1019()">Promenadi</a></li>
+              <li><a class="dropdown-item" id="tkukinopalatsi" href="#" onclick="funktio1022()">Turku: Kinopalatsi</a></li>
+              <li><a class="dropdown-item" id="hkikinopalatsi" href="#" onclick="funktio1031()">Helsinki: Kinopalatsi</a></li>
+              <li><a class="dropdown-item" id="maxim" href="#" onclick="funktio1032()">Maxim</a></li>
+              <li><a class="dropdown-item" id="tennispalatsi" href="#" onclick="funktio1033()">Tennispalatsi</a></li>
+              <li><a class="dropdown-item" id="cineatlas" href="#" onclick="funktio1034()">Cine Atlas</a></li>
+              <li><a class="dropdown-item" id="plevna" href="#" onclick="funktio1035()">Plevna</a></li>
+              <li><a class="dropdown-item" id="sello" href="#" onclick="funktio1038()">Sello</a></li>
+              <li><a class="dropdown-item" id="omena" href="#" onclick="funktio1039()">Omena</a></li>
+              <li><a class="dropdown-item" id="strand" href="#" onclick="funktio1041()">Strand</a></li>
+              <li><a class="dropdown-item" id="itis" href="#" onclick="funktio1045()">Itis</a></li>
+              <li><a class="dropdown-item" id="luxemylly" href="#" onclick="funktio1046()">Luxe Mylly</a></li>
+            </ul>
+          </div>
+          <br>
+          <!-- Taulukko, joka näyttää leffatiedot, näkyy tässä -->
+          <table id="leffatiedot"></table>
+
+    <script src="./JavaScript/applikaatio.js"></script>
+
+</body>
+
+</html>
